@@ -1,0 +1,18 @@
+THANKS FOR DOWNLOADING
+
+// FOLLOW THE STEPS //
+
+
+ -- FIRST WAY --
+Run the shortcut, "Bhavesh Virus Maker SKW.exe". 
+If it doesn't work, then follow the way mentioned below.
+ 
+ -- SECOND WAY --
+Bhavesh Virus Maker SKW > bin > Debug > Bhavesh Virus Maker SKW.exe
+
+// REQUIREMENTS //
+
+1. Microsoft .NET Framework 4.5
+2. Windows OS
+
+Please read the "README.txt" when you open the program!

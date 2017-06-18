@@ -1,0 +1,28 @@
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\bin\Debug\Bhavesh Virus Maker SKW.exe.config
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\bin\Debug\Bhavesh Virus Maker SKW.exe
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\bin\Debug\Bhavesh Virus Maker SKW.pdb
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\bin\Debug\Bhavesh Virus Maker SKW.xml
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.Form1.resources
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.Resources.resources
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh Virus Maker SKW.vbproj.GenerateResource.Cache
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh Virus Maker SKW.exe
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh Virus Maker SKW.xml
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh Virus Maker SKW.pdb
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.tokenGen.resources
+c:\users\cal it\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.bvmMenu.resources
+C:\Users\CAL IT\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.batchvirusmaker.resources
+C:\Users\CAL IT\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.bvmBrowser.resources
+C:\Users\CAL IT\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.bvmShellcode.resources
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.bvmWebshells.resources
+C:\Users\CAL IT\documents\visual studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.bvmDorkContainer.resources
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.bvmUpdate.resources
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.bvmCommandlinecodes.resources
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\bin\Debug\Bhavesh Virus Maker SKW.exe.manifest
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\bin\Debug\Bhavesh Virus Maker SKW.application
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh Virus Maker SKW.TrustInfo.xml
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh Virus Maker SKW.exe.manifest
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh Virus Maker SKW.application
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.bvmVirusEngines.resources
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.bvmMenu2.resources
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.bvmDownloader.resources
+C:\Users\CAL IT\Documents\Visual Studio 2012\Projects\Bhavesh Virus Maker SKW\Bhavesh Virus Maker SKW\obj\Debug\Bhavesh_Virus_Maker_SKW.bvmSettings.resources
