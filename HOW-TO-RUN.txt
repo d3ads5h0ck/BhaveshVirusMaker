@@ -1,0 +1,9 @@
+ -- How to run/find exe file --
+Bhavesh Virus Maker SKW > bin > Debug > Bhavesh Virus Maker SKW.exe
+
+ -- Requirements before you run --
+
+1. Microsoft .NET Framework 4.5
+2. Windows Operating System
+
+Please read the "README.txt" when you open the program!
