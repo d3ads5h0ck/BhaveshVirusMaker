@@ -1,0 +1,145 @@
+   ANALYZE
+   AUDIT
+c
+   CALL
+   Cluster - CREATE CLUSTER
+           - ALTER  CLUSTER
+           - DROP   CLUSTER
+   COMMENT
+   COMMIT
+   CONNECT
+   CONSTRAINT - Add / Enable
+   Context - CREATE CONTEXT
+           - DROP CONTEXT
+   Controlfile - CREATE CONTROLFILE
+d
+   Database - CREATE DATABASE
+            - ALTER  DATABASE
+   DELETE
+   DESCRIBE
+   Dimension - CREATE DIMENSION
+             - ALTER DIMENSION
+             - DROP DIMENSION
+   Directory - CREATE DIRECTORY
+             - DROP DIRECTORY
+e
+   EXEC
+   EXECUTE IMMEDIATE
+   EXPDP - Export (Data Pump)
+   EXPLAIN PLAN
+f
+   Function - CREATE FUNCTION
+         - ALTER  FUNCTION
+         - DROP   FUNCTION
+g
+   GRANT
+i
+   IMPDP - Import (Data Pump)
+   Index - CREATE INDEX
+         - ALTER  INDEX
+         - DROP   INDEX
+   Indextype - CREATE INDEXTYPE
+             - DROP INDEXTYPE
+   INSERT
+   INTERSECT
+j
+   Java - CREATE JAVA
+        - ALTER JAVA
+        - DROP JAVA
+l
+   Library - CREATE LIBRARY
+           - DROP LIBRARY
+   Link - CREATE DATABASE LINK
+        - DROP DATABASE LINK
+   LOCK TABLE
+m
+   MERGE - Select rows for update or insert into a table.
+   Mview - CREATE MATERIALIZED VIEW
+         - ALTER MATERIALIZED VIEW
+         - DROP MATERIALIZED VIEW
+         - CREATE MATERIALIZED VIEW LOG
+         - ALTER MATERIALIZED VIEW LOG
+         - DROP MATERIALIZED VIEW LOG
+   MINUS
+n
+   NOAUDIT
+o
+   Operator - CREATE OPERATOR
+            - DROP OPERATOR
+   Outline - CREATE OUTLINE
+           - ALTER OUTLINE
+           - DROP OUTLINE
+p
+   Package - CREATE PACKAGE/BODY
+           - ALTER  PACKAGE
+           - DROP   PACKAGE
+   Pfile - CREATE PFILE
+   Procedure - CREATE PROCEDURE
+             - ALTER  PROCEDURE
+             - DROP   PROCEDURE
+   Profile - CREATE PROFILE
+           - ALTER  PROFILE
+           - DROP   PROFILE
+   PURGE RECYCLEBIN / Table
+r
+   RECOVER
+   RENAME
+   Resource - ALTER RESOURCE COST
+   REVOKE
+   RMAN - Recovery Manager
+   Role - CREATE ROLE
+        - SET    ROLE
+        - ALTER  ROLE
+        - DROP   ROLE
+   ROLLBACK
+   Rollback - CREATE ROLLBACK SEGMENT
+            - ALTER  ROLLBACK SEGMENT
+            - DROP   ROLLBACK SEGMENT
+s
+   SAVEPOINT
+   Schema - CREATE SCHEMA
+   SELECT
+   Sequence - CREATE SEQUENCE
+            - ALTER  SEQUENCE
+            - DROP   SEQUENCE
+   Session - ALTER SESSION
+   SHUTDOWN
+   SNAPSHOT
+   SPfile - CREATE SPFILE
+   STARTUP
+   Statistics - ASSOCIATE STATISTICS
+              - DISASSOCIATE STATISTICS
+   Synonym - CREATE SYNONYM
+           - DROP   SYNONYM
+   System - ALTER SYSTEM
+t
+   Table - CREATE TABLE
+         - ALTER  TABLE
+         - DROP   TABLE
+   Tablespace - CREATE TABLESPACE
+              - ALTER  TABLESPACE
+              - DROP   TABLESPACE
+              - CREATE TEMPORARY TABLESPACE
+   TNSPING - Test listener connection
+   Transaction - SET TRANSACTION
+   Trigger - CREATE TRIGGER
+           - ALTER  TRIGGER
+           - DROP   TRIGGER
+   TRUNCATE
+   Type - CREATE TYPE
+        - ALTER TYPE
+        - DROP TYPE
+        - CREATE TYPE BODY
+        - DROP TYPE BODY
+u
+   UPDATE
+   UNION
+   User - CREATE USER
+        - ALTER  USER
+        - DROP   USER
+v
+   View - CREATE VIEW
+        - ALTER  VIEW
+        - DROP   VIEW
+w
+   WHERE
