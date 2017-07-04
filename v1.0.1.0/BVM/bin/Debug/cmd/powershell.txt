@@ -1,0 +1,338 @@
+        %                     Alias for ForEach-Object
+        ?                     Alias for Where-Object
+a
+    Get-Acl                   Get permission settings for a file or registry key
+    Set-Acl                   Set permissions
+        Active Directory      Account, Computer, Group and User cmdlets
+    Get-Alias           gal   Return alias names for Cmdlets
+ Import-Alias          ipal   Import an alias list from a file
+    New-Alias           nal   Create a new alias.
+    Set-Alias           sal   Create or change an alias
+ Compress-Archive             Create a new archive/zipped file [PS 5+]
+   Expand-Archive             Extract files from an archive (zipped) file [PS 5+]
+   Get-AuthenticodeSignature  Get the signature object associated with a file
+   Set-AuthenticodeSignature  Place a signature in a .ps1 script or other file
+b
+       Backup-GPO             Backup group policy objects (GPOs)
+       Begin                  Function BEGIN block
+       BITS                   Background Intelligent Transfer Service cmdlets
+       Break                  Exit a program loop
+c
+     Catch                    Handle a terminating error within a scriptblock
+   Set-Location  cd/chdir/sl  Set the current working location
+   Get-ChildItem   dir/ls/gci Get child items (contents of a folder or registry key)
+     Clear-Host    clear/cls  Clear the screen
+     Clear-Item         cli   Remove content from a variable or an alias
+       Get-Command      gcm   Retrieve basic information about a command
+   Measure-Command            Measure running time
+     Trace-Command            Trace an expression or command
+        Add-Computer          Add a computer to the domain
+ Checkpoint-Computer          Create a system restore point (XP)
+     Remove-Computer          Remove the local computer from a workgroup or domain
+    Restart-Computer          Restart the operating system on a computer
+    Restore-Computer          Restore the computer to a previous state
+       Stop-Computer          Stop (shut down) a computer
+Reset-ComputerMachinePassword Reset the machine account password for the computer
+ Test-ComputerSecureChannel   Test and repair the secure channel to the domain
+     Add-Content         ac   Add to the content of the item
+     Get-Content cat/type/gc  Get content from item (specific location)
+     Set-Content         sc   Set content in the item (specific location)
+   Clear-Content        clc   Remove content from a file/item
+         Continue             Skip just this iteration of a loop
+     Get-Command        gcm   Get basic information about cmdlets
+  Invoke-Command        icm   Run command
+   Enable-ComputerRestore     Enable System Restore on a drive
+   Disable-ComputerRestore    Disable System Restore on a drive
+  Get-ComputerRestorePoint    Get the restore points on the local computer
+ Test-Connection              Ping one or more computers
+   ConvertFrom-CSV            Convert object properties (in CSV format) into CSV objects
+   ConvertTo-CSV              Convert .NET Framework objects into CSV variable-length strings
+   ConvertTo-Html             Convert the input into an HTML table
+   ConvertTo-Xml              Convert the input into XML
+   ConvertFrom-SecureString   Convert a secure string into an encrypted standard string
+   ConvertTo-SecureString     Convert an encrypted standard string into a secure string
+   Copy-Item     copy/cp/ci   Copy an item from a namespace location
+   Export-Counter             Export Performance Counter data to log files
+      Get-Counter             Get performance counter data
+   Import-Counter             Import performance counter log files
+   Get-Credential             Get a security credential (username/password)
+   Get-Culture                Get region information (language and keyboard layout)
+d
+   Get-ChildItem   Dir/ls/gci Get child items (contents of a folder or registry key)
+   Get-Date                   Get current date and time
+   Set-Date                   Set system time on the host system
+   Remove-Item  Del/erase/rd/rm/rmdir   Delete an item
+   Compare-Object diff/compare   Compare the properties of objects
+   Do                         Loop while a condition is True
+     Get-DscConfiguration     Get the current config. of a node
+     Get-DscLocalConfigurationManager   Get Local Config Manager settings
+     Get-DscResource          Get Desired State Config. resources from a computer
+     New-DSCCheckSum          Create checksum files for DSC docs/resources
+   Start-DscConfiguration     Apply Desired State config to nodes
+e
+         End                  Function END block
+     Get-Event                Get events in the PowerShell event queue
+     New-Event                Create a new event
+  Remove-Event                Delete events from the event queue
+ Unregister-Event             Cancel an event subscription
+    Wait-Event                Wait until a particular event is raised
+   Clear-EventLog             Delete all entries from an event log
+     Get-Eventlog             Get event log data (2003)
+   Limit-EventLog             Limit the size of the event log
+     New-Eventlog             Create a new event log and a new event source
+  Remove-EventLog             Delete an event log
+    Show-EventLog             Display an event log
+   Write-EventLog             Write an event to an event log
+     Get-WinEvent             Get event log data (Vista+)
+   Get-EventSubscriber        Get event subscribers
+Register-EngineEvent          Subscribe to PowerShell events
+Register-ObjectEvent          Subscribe to .NET events
+   Register-WmiEvent          Subscribe to a WMI event
+   Get-ExecutionPolicy        Get the execution policy for the shell
+   Set-ExecutionPolicy        Change the execution policy (user preference)
+   Export-Alias         epal  Export an alias list to a file
+   Export-Clixml              Produce a clixml representation of PowerShell objects
+   Export-Console             Export console configuration to a file
+   Export-Csv          epcsv  Export to Comma Separated Values (spreadsheet)
+   Exit-PSSession       Exit  Exit PowerShell (or exit a script)
+f
+   -F operator                Format operator
+   Unblock-File               Unblock files downloaded from the Internet
+   ForEach-Object    foreach  Loop through each item in the pipeline ( % )
+   ForEach                    Loop through each item in a collection
+   ForEach method             Loop through each item in a collection
+   For                        Loop through items that match a condition
+   Format-Custom         fc   Format output using a customized view
+   Format-List           fl   Format output as a list of properties, each on a new line
+   Format-Table          ft   Format output as a table
+   Format-Wide           fw   Format output as a table listing one property only
+  Export-FormatData           Save formatting data from the current session 
+     Get-FormatData           Get the formatting data in the current session
+g
+   Get-Item              gi   Get a file/registry object (or any other namespace object)
+   Get-ChildItem   dir/ls/gci Get child items (contents of a folder or registry key)
+    Backup-GPO                Backup group policy objects (GPOs)
+   Restore-GPO                Restore one or all GPOs from a GPO backup
+    Import-GPO                Import Group Policy settings into a specified GPO from a GPO backup
+h
+   Get-Help            help   Open the help file
+     Add-History              Add entries to the session history
+   Clear-History       clhy   Delete entries from the session history
+     Get-History  history/h/ghy Get a listing of the session history
+  Invoke-History     r/ihy    Invoke a previously executed Cmdlet
+     Get-Host                 Get host information (PowerShell Version and Region)
+   Clear-Host      clear/cls  Clear the screen
+    Read-Host                 Read a line of input from the host console
+   Write-Host                 Write customized output to the host/screen
+     Get-HotFix               Get Installed hotfixes
+i
+   if                         Conditionally perform a command
+   Import-Clixml              Import a clixml file and rebuild the PS object
+   Import-Csv         ipcsv   Take values from a CSV list and send objects down the pipeline
+   Invoke-Command             Run commands on local and remote computers
+   Invoke-Expression    iex   Run a PowerShell expression
+      Get-Item           gi   Get a file object or get a registry (or other namespace) object
+   Invoke-Item           ii   Invoke an executable or open a file (START)
+      New-Item   md/mkdir/ni  Create a new item in a namespace
+   Remove-Item  rm/del/erase/rd/ri/rmdir   Remove an item
+      Set-Item           si   Change the value of an item
+    Clear-ItemProperty  clp   Remove the property value from a property
+     Copy-ItemProperty  cpp   Copy a property along with it's value
+      Get-ItemProperty   gp   Retrieve the properties of an object
+     Move-ItemProperty   mp   Move a property from one location to another
+      New-ItemProperty        Set a new property
+   Remove-ItemProperty   rp   Remove a property and its value
+   Rename-ItemProperty  rnp   Renames a property at its location
+      Set-ItemProperty   sp   Set a property at the specified location to a specified value
+j
+       Get-Job          gjb   Get PowerShell background jobs that are running
+   Receive-Job         rcjb   Get PowerShell background job results
+    Remove-Job          rjb   Delete a PowerShell background job
+     Start-Job         sajb   Start a PowerShell background job
+      Stop-Job         spjb   Stop a PowerShell background job
+      Wait-Job          wjb   Wait for a background job
+   Job Trigger cmdlets        Get/Set Scheduled job triggers
+k
+   Stop-Process    kill/spps  Stop a running process
+l
+Update-List                   Add and remove items from a collection
+   Get-Location    pwd / gl   Get and display the current location
+   Pop-Location        popd   Set the current working location from the stack
+  Push-Location       pushd   Push a location to the stack
+   Set-Location  cd/chdir/sl  Set the current working location
+m
+  Send-MailMessage            Send an email message
+   Add-Member                 Add a member to an instance of a PowerShell object
+   Get-Member            gm   Enumerate the properties of an object
+    Get-Module          gmo   Get the modules imported to the session
+ Import-Module         ipmo   Add a module to the session
+    New-Module          nmo   Create a new dynamic module (only in memory)
+ Remove-Module          rmo   Remove a module from the current session
+ Export-ModuleMember          Export specific module members
+   Move-Item      mv/move/mi  Move an item from one location to another
+o
+  Compare-Object diff/compare Compare the properties of objects
+    Group-Object       group  Group objects that contain the same value
+  Measure-Object              Measure the properties of an object
+      New-Object              Create a new .Net object
+   Select-Object      select  Select properties of objects
+     Sort-Object        sort  Sort objects by property value
+    Where-Object              Filter the objects passed along the command pipeline
+   Out-Default                Send output to default
+   Out-File                   Send output to a file
+   Out-GridView         ogv   Send output to an interactive table
+   Out-Host              oh   Send output to the host
+   Out-Null                   Send output to null
+   Out-Printer           lp   Send the output to a printer
+   Out-String                 Send objects to the host as strings
+p
+           Param              Script Parameters
+           Pause              Pause and display the message "Press Enter to continue"
+           Powershell         Launch a PowerShell session
+   Convert-Path        cvpa   Convert a ps path to a provider path
+      Join-Path               Combine a path and child-path
+   Resolve-Path        rvpa   Resolves the wildcards in a path
+     Split-Path               Return part of a path
+      Test-Path               Return true if the path exists, otherwise return false
+ Get-Pfxcertificate         Get pfx certificate information
+    Pop-Location       popd   Set the current working location from the stack
+   Push-Location      pushd   Push a location to the stack
+         Process              Function PROCESS block
+     Get-Process     ps/gps   Get a list of processes on a machine
+   Debug-Process              Attach a debugger to a running process
+   Start-Process  start/saps  Start one or more processes
+    Stop-Process   kill/spps  Stop a running process
+    Wait-Process              Wait for a process to stop
+   Enable-PSBreakpoint  ebp   Enable a breakpoint in the current console
+  Disable-PSBreakpoint  dbp   Disable a breakpoint in the current console
+      Get-PSBreakpoint  gbp   Get the currently set breakpoints
+      Set-PSBreakpoint  sbp   Set a breakpoint on a line, command, or variable
+   Remove-PSBreakpoint  rbp   Delete breakpoints from the current console
+      Get-PSDrive       gdr   Get drive information (DriveInfo)
+      New-PSDrive   mount/ndr Create a mapped network drive.
+   Remove-PSDrive       rdr   Remove a provider/drive from its location
+      Get-PSProvider          Get information for the specified provider
+      Set-PSdebug             Turn script debugging on or off
+  Disable-PSRemoting          Disable remote session configuration on the local computer
+   Enable-PSRemoting          Run PowerShell commands on remote computers
+    Enter-PSSession  etsn     Start an interactive session with a remote computer
+     Exit-PSSession  exsn     End an interactive session with a remote computer
+   Export-PSSession  epsn     Import commands and save them in a PowerShell module
+      Get-PSSession   gsn     Get the PSSessions in the current session
+   Import-PSSession  ipsn     Import commands from another session
+      New-PSSession   nsn     Create a persistent connection to a local or remote computer
+   Remove-PSSession   rsn     Close PowerShell sessions
+    Disable-PSSessionConfiguration  Disable session configurations on the local computer
+     Enable-PSSessionConfiguration  Enable session configurations on the local computer
+        Get-PSSessionConfiguration  Get the registered PS session configuration
+   Register-PSSessionConfiguration  Create and register a new PS session configuration
+        Set-PSSessionConfiguration  Change properties of a registered session configuration
+ Unregister-PSSessionConfiguration  Delete registered PS session configuration
+        New-PSSessionOption         Advanced options for a PSSession
+   Add-PsSnapIn        asnp   Add snap-ins to the console
+   Get-PsSnapin        gsnp   List PowerShell snap-ins on this computer
+   Remove-PSSnapin     rsnp   Remove PowerShell snap-ins from the console
+q
+   Quest AD cmdlets           Read and write to Active Directory
+r
+   Get-Random                 Get a random number
+   Read-Host                  Read a line of input from the host console
+   Remove-Item  rm/del/erase/rd/ri/rmdir   Remove an item
+   Rename-Item      ren/rni   Change the name of an existing item
+   Rename-ItemProperty        Rename a property of an item
+   Return                     Exit the current scope, (function, script, or script block)
+   Run/Call             &     Run a command (call operator)
+s
+   Scheduler cmdlets          Get/Set scheduled jobs
+   Select-Object     select   Select properties of objects
+   Select-XML                 Find text in an XML string or document
+   Send-MailMessage           Send an email message
+       Get-Service      gsv   Get a list of services
+       New-Service            Create a new service
+   Restart-Service            Stop and then restart a service
+    Resume-Service            Resume a suspended service
+       Set-Service            Change the start mode/properties of a service
+     Start-Service     sasv   Start a stopped service
+      Stop-Service     spsv   Stop a running service
+   Suspend-Service            Suspend a running service
+   Sort-Object         sort   Sort objects by property value
+   Set-StrictMode             Enforce coding rules in expressions & scripts
+   Start-Sleep        sleep   Suspend shell, script, or runspace activity
+   Switch                     Multiple if statements
+   ConvertFrom-StringData     Convert a here-string into a hash table
+   Select-String              Search through strings or files for patterns
+t
+   Tee-Object           tee   Send input objects to two places
+   New-Timespan               Create a timespan object
+   Trace-Command              Trace an expression or command
+   Get-Tracesource            Get components that are instrumented for tracing.
+   Set-Tracesource            Trace a PowerShell component
+     Start-Transaction        Start a new transaction 
+  Complete-Transaction        Commit the transaction
+       Get-Transaction        Get information about the active transaction
+       Use-Transaction        Add a command or expression to the transaction
+      Undo-Transaction        Roll back a transaction
+   Start-Transcript           Start a transcript of a command shell session
+    Stop-Transcript           Stop the transcription process
+         Trap                 Handle a terminating error
+         Try ... Catch        Handle a terminating error within a scriptblock
+     Add-Type                 Add a .NET Framework type to a PowerShell session
+   Update-TypeData            Update extended type configuration
+u
+   Get-Uiculture              Get the ui culture information
+       Unblock-File           Unblock files downloaded from the Internet
+   Get-Unique            gu   Get the unique items in a collection
+    Update-Formatdata         Update and append format data files
+    Update-Help               Download and install help files
+    Update-Typedata           Update the current extended type configuration
+v
+   Clear-Variable       clv   Remove the value from a variable
+     Get-Variable        gv   Get a PowerShell variable
+     New-Variable        nv   Create a new variable
+  Remove-Variable        rv   Remove a variable and its value
+     Set-Variable    set/sv   Set a variable and a value
+w
+Checkpoint-WebApplicationMonitoring Create a checkpoint for an IIS web app
+ Get-WebApplicationMonitoringStatus Get the monitoring status of web apps
+ New-WebServiceProxy          Create a Web service proxy object
+   Where-Object      where/?  Filter input from the pipeline
+   Where method               Filter objects from a collection
+   While                      Loop while a condition is True
+ Add-WindowsFeature           Install roles, role services, and features
+ Get-WindowsFeature           Retrieve roles, role services, and features
+ Remove-WindowsFeature        Remove roles, role services, and features
+   Write-Debug                Write a debug message to the host display
+   Write-Error                Write an object to the error pipeline
+   Write-Host                 Display text on screen
+   Write-Output   write/echo  Write an object to the pipeline
+   Write-Progress             Display a progress bar
+   Write-Verbose              Write a string to the host's verbose display
+   Write-Warning              Write a string in reverse video to the display
+    Set-WmiInstance           Create or update an instance of an existing WMI class
+ Invoke-WmiMethod      iwmi   Call WMI methods
+    Get-WmiObject      gwmi   Get WMI class information
+ Remove-WmiObject      rwmi   Delete an instance of a WMI class
+    Connect-WSMan             Connect to the WinRM service on a remote computer
+ Disconnect-WSMan             Disconnect from the WinRM service on a remote computer
+       Test-WSMan             Test if a computer is setup to receive remote commands
+  Invoke-WSManAction          Invoke an action on a specified object
+ Disable-WSManCredSSP         Disable Credential Security Service Provider (SSP) authentication
+  Enable-WSManCredSSP         Enable Credential SSP authentication
+     Get-WSManCredSSP         Get the Credential SSP configuration
+   New-WSManInstance          Create a new instance of a management resource
+   Get-WSManInstance          Display management information (XML or value)
+   Set-WSManInstance          Modify the management information related to a resource
+Remove-WSManInstance          Delete a management resource instance
+   Set-WSManQuickConfig       Configure the local computer for remote management
+   New-WSManSessionOption     Options for WSMan commands
+z
+   Zipfile                    Compress or Extract zip files
+       #                      Comment / Remark
+       . (source)             Run a command script in the current shell
+       & (call)               Run a command, script or function
+       %                      Alias for ForEach-Object
+       --%                    Stop parsing input
+       ?                      Alias for Where-Object
+       $variable = "value"    Define a variable  also: ${n!a#me} = "value"
+       $_                     The current pipeline object 
+       @(...)                 Force an expression to be evaluated as an array
