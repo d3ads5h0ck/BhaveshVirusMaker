@@ -1,4 +1,0 @@
- -- HOW TO RUN --
-Goto: BVM > bin > Debug > BVM.exe
-
-Problem? Do this: Goto 'BVM' folder, then goto 'bin' folder, then goto 'Debug' folder, find 'BVM.exe' there and run it.

@@ -1,1 +1,0 @@
-To get full readme, download 'README WEB.html' and 'jq.js' file only.
